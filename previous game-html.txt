@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="game.css" />
+  <title>Play</title>
+</head>
+<body>
+  <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <h2 id="question">What is the answer to this question?</h2>
+      <div id="choice-container">
+        <a class="choice-prefix">A</a>
+        <a class="choice-text">Choice 1</a>
+      </div>
+      <div id="choice-container">
+        <a class="choice-prefix">B</a>
+        <a class="choice-text">Choice 2</a>
+      </div>
+      <div id="choice-container">
+        <a class="choice-prefix">C</a>
+        <a class="choice-text">Choice 3</a>
+      </div>
+      <div id="choice-container">
+        <a class="choice-prefix">D</a>
+        <a class="choice-text">Choice 4</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
